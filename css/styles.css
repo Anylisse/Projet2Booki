@@ -2,8 +2,9 @@
 body {
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Entête de la page */
@@ -14,8 +15,8 @@ header {
 }
 
 header img {
-    padding-left: 15px;
     width: 65px;
+    padding-left: 15px;
 }
 
 header nav ul {
@@ -34,7 +35,7 @@ header nav ul a {
 
 header nav a:hover {
     color: #0065FC;
-    box-shadow: 0px -2px 0px 0px #0065FC;
+    box-shadow: 0px -2px #0065FC;
 }
 
 /* Slogan */
