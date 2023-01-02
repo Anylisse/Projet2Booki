@@ -164,13 +164,13 @@ p {
     padding: 5px 8px;
 }
 
-/*Partie Hébergements à Marseille*/
-.cards h2 {
+/* Partie hébergements */
+.cards-h h2 {
     font-size: 22px;
     font-weight: 700;
 }
 
-.cards {
+.cards-h {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -182,44 +182,45 @@ p {
     padding: 10px 30px;
 }
 
-.cards img {
+.cards-h img {
     width: 100%;
     height: 100px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
 
-#Hebergements .part-1 {
+.Accommodation .part-1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#Hebergements .part-1 a {
+.Accommodation .part-1 a {
     text-decoration: none;
 }
 
-#Hebergements article h3 {
+.Accommodation article h3 {
     font-size: 16px;
     padding-left: 10px;
 }
 
-#Hebergements article p {
+.Accommodation article p {
     font-size: 14px;
     margin-left: 10px;
 }
 
-.stars {
+.stars-h {
+    display: flex;
     font-size: 12px;
     padding-left: 10px;
     padding-bottom: 5px;
 }
 
-.stars .blue {
+.stars-h .blue {
     color: #0065FC;
 }
 
-.stars .grey {
+.stars-h .grey {
     color: #F2F2F2;
 }
 
@@ -232,7 +233,6 @@ p {
     border-radius: 20px;
     line-height: 0.5;
     margin-top: 25px;
-
 }
 
 .container:hover {
@@ -241,7 +241,7 @@ p {
     transition: 0.3s;
 }
 
-.afficher-plus {
+.show-more {
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -249,4 +249,86 @@ p {
     display: inline-block;
     padding-top: 30px;
     padding-bottom: 20px;
+}
+
+/* Partie populaires */
+.Popular .Title-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.fa-solid.fa-chart-line {
+    color: #0065FC;
+    padding-right: 30px;
+}
+
+.cards-p {
+    display: flex;
+    height: 158px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.cards-p img {
+    display: inline;
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+.cards-p:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.Popular {
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Text h3 {
+    display: flex;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Text p {
+    display: flex;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 0.1;
+}
+
+.stars-p {
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.stars-p .blue {
+    color: #0065FC;
+    font-size: 12px;
+}
+
+.stars-p .grey {
+    color: #F2F2F2;
+    font-size: 12px;
 }
