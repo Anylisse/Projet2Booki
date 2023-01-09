@@ -118,8 +118,8 @@ p {
 
 #filters ul {
     display: flex;
-    gap: 25px;
     flex-wrap: wrap;
+    gap: 25px;
 }
 
 #filters li {
@@ -295,8 +295,8 @@ h2 {
 
 .cards-p {
     width: 85%;
-    display: flex;
     height: 158px;
+    display: flex;
     color: black;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -427,4 +427,24 @@ footer p a {
     line-height: 1;
     padding: 0;
     /* pour enlever l'indentation par défaut */
+}
+
+/* MEDIA QUERIES */
+/* Tablette */
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+    .cards-h {
+        width: 100%;
+    }
+
+    .bloc-popular {
+        width: 100%;
+        height: 278px;
+        margin-top: 40px;
+    }
+
+    .cards-p {
+        width: 30%;
+    }
 }
