@@ -52,8 +52,8 @@ h1 {
     padding-left: 15px;
 }
 
-p {
-    font-size: 16px;
+.slogan p {
+    padding-left: 15px;
 }
 
 /* Partie recherche */
@@ -65,7 +65,7 @@ p {
 }
 
 #search_input {
-    width: 200px;
+    width: 15%;
     border: 1px solid #F2F2F2
 }
 
@@ -79,7 +79,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
+    width: 9%;
     font-size: 16px;
     font-weight: 700;
     color: white;
@@ -91,13 +91,22 @@ p {
 
 #search_button_glass {
     display: none;
+    color: white;
+    background-color: #0065FC;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0 15px 15px 0;
+    width: 15%;
+    height: 45px;
+    padding: 15px 16px 15px 16px;
+    gap: 10px;
 }
 
 #icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    width: 3%;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0 0 15px;
@@ -112,8 +121,8 @@ p {
 }
 
 #filters p {
-    font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
+    padding-left: 15px;
 }
 
 #filters ul {
@@ -132,7 +141,7 @@ p {
 #filters a {
     text-decoration: none;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     color: #000000;
     padding: 8px;
     padding-right: 20px;
@@ -150,8 +159,7 @@ p {
 }
 
 /* Partie info */
-.info,
-p {
+.info {
     display: flex;
     align-items: center;
     margin-left: 15px;
@@ -163,6 +171,10 @@ p {
     border: solid 1px #D9D9D9;
     border-radius: 50px;
     padding: 5px 8px;
+}
+
+#info {
+    padding-left: 10px;
 }
 
 /* Partie hébergements */
@@ -178,10 +190,10 @@ p {
 }
 
 .cards-h {
-    width: 66%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 21px;
@@ -203,15 +215,15 @@ p {
 }
 
 .cards-h .part-1 a {
-    width: 30%;
     text-decoration: none;
+    width: 30%;
 }
 
 .cards-h article h3 {
     font-size: 16px;
-    padding-left: 10px;
-    margin-bottom: 3px;
     margin-left: 1px;
+    margin-bottom: 3px;
+    padding-left: 10px;
 }
 
 .cards-h article p {
@@ -256,10 +268,10 @@ p {
 
 .show-more {
     text-decoration: none;
+    display: inline-block;
     color: black;
     font-size: 16px;
     font-weight: 700;
-    display: inline-block;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -279,8 +291,8 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
     margin-top: 12px;
+    padding-left: 30px;
 }
 
 .bloc-popular .title,
@@ -322,26 +334,36 @@ a {
     text-decoration: none;
 }
 
-.part-1 .text,
-h3 {
+.part-2 {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
-    margin-right: 15px;
+}
+
+.part-2 a {
+    width: 100%;
+}
+
+.part-2 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 15px;
 }
 
-.part-1 .text,
-p {
+.part-2 h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.part-2 p {
     display: flex;
     font-size: 14px;
-    margin-left: 15px;
 }
 
 .stars-p {
     display: flex;
-    margin-left: 15px;
-    margin-top: 50px;
+    margin-bottom: 5px;
 }
 
 .stars-p .blue {
@@ -350,14 +372,14 @@ p {
 }
 
 .stars-p .grey {
-    color: #F2F2F2;
     font-size: 12px;
+    color: #F2F2F2;
 }
 
 /* Partie activités */
 #bloc-activites {
-    padding-left: 20px;
     margin-bottom: 30px;
+    padding-left: 20px;
 }
 
 #bloc-activites h2 {
@@ -365,8 +387,9 @@ p {
 }
 
 #bloc-activites h3 {
-    padding-left: 10px;
-    line-height: 0.3;
+    height: 20px;
+    margin-top: 5px;
+    padding-left: 15px;
 }
 
 #bloc-activites a:hover {
@@ -387,7 +410,6 @@ p {
 
 .cards-a {
     color: black;
-    height: 450px;
     border: 4px solid white;
     border-radius: 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -395,7 +417,7 @@ p {
 
 .cards-a img {
     width: 100%;
-    height: 400px;
+    height: 445px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -404,11 +426,9 @@ p {
 footer {
     display: flex;
     justify-content: space-between;
+    height: 180px;
     background-color: #F2F2F2;
-    height: 170px;
-    margin-left: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
 }
 
 footer div {
@@ -431,20 +451,260 @@ footer p a {
 
 /* MEDIA QUERIES */
 /* Tablette */
+@media screen and (max-width: 992px) {
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+    body {
+        padding-right: 20px;
+    }
 
+    /***Partie recherche***/
+    #search_input {
+        width: 20%;
+    }
+
+    #button_search {
+        width: 12%;
+    }
+
+    /***Partie hébergements***/
     .cards-h {
         width: 100%;
     }
 
+    /***Partie les plus populaires***/
     .bloc-popular {
         width: 100%;
-        height: 278px;
+        height: 310px;
         margin-top: 40px;
     }
 
+    .part-2 {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /***Partie activités***/
+    .cards-a img {
+        height: 265px;
+    }
+
+    /***Bas de la page***/
+    footer {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 0;
+    }
+
+    /***Entête de la page***/
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    header img {
+        width: 25%;
+        margin-left: 120px;
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav ul a {
+        padding: 40px 60px 30px 40px;
+    }
+
+    header nav a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    /***Slogan***/
+    .slogan {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /***Partie recherche***/
+    #search {
+        margin-top: 30px;
+    }
+
+    #search_input {
+        width: 100%;
+    }
+
+    #icon {
+        width: 20%;
+    }
+
+    #search_button_glass {
+        display: inline-block;
+    }
+
+    #search_button_glass:hover {
+        cursor: pointer;
+    }
+
+    #button_search {
+        display: none;
+    }
+
+    /***Partie filtres***/
+    #filters {
+        flex-wrap: wrap;
+    }
+
+    #filters p {
+        padding-left: 40px;
+    }
+
+    #filters a {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    #filters ul {
+        margin-top: -5px;
+        gap: 15px;
+    }
+
+    #filters li {
+        width: 40%;
+        height: 40px;
+        padding-left: 5px;
+    }
+
+    .icons {
+        width: 25%;
+        margin-left: -5px;
+    }
+
+    /***Partie info***/
+    .info {
+        padding-left: 20px;
+    }
+
+    #info {
+        font-size: 14px;
+    }
+
+    /***Partie les plus populaires***/
+    .bloc-popular {
+        width: 100%;
+        height: 580px;
+        border-radius: unset;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .part-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .cards-p {
-        width: 30%;
+        width: 90%;
+        height: 144px;
+        margin-top: 8px;
+    }
+
+    /***Partie hébergements***/
+    .bloc-hebergements {
+        flex-direction: column-reverse;
+    }
+
+    .cards-h {
+        width: 100%;
+        background-color: unset;
+        margin-top: 5px;
+        padding: 0 20px;
+    }
+
+    .cards-h img {
+        height: 100px;
+    }
+
+    .cards-h .part-1 {
+        display: inline-block;
+        width: 100%;
+        margin-top: -25px;
+    }
+
+    .container {
+        height: 190px;
+        margin-top: 15px;
+    }
+
+    .show-more {
+        display: none;
+    }
+
+    /***Partie activités***/
+    #bloc-activites h2 {
+        padding-left: 25px;
+    }
+
+    #bloc-activites {
+        margin: -15px;
+    }
+
+    #bloc-activites h3 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .part-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -10px;
+    }
+
+    .part-3 a {
+        width: 95%;
+        padding-left: 25px;
+    }
+
+    .cards-a {
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .cards-a img {
+        height: 120px;
+    }
+
+    /***Bas de la page***/
+    footer {
+        display: inline-block;
+        width: 100%;
+        height: 620px;
+        margin-top: 70px;
+        margin-left: 0;
+        padding-top: 30px;
+    }
+
+    footer div {
+        width: auto;
+        padding: 20px 20px 0 40px;
+    }
+
+    footer h3 {
+        margin-bottom: 30px;
     }
 }
