@@ -642,8 +642,10 @@ footer p a {
     .cards-h {
         width: 100%;
         background-color: unset;
+        margin: 0;
         margin-top: 5px;
-        padding-left: 8px;
+        padding-right: 10px;
+        padding-left: 25px;
     }
 
     .cards-h img {
@@ -684,7 +686,7 @@ footer p a {
     }
 
     .part-3 a {
-        width: 95%;
+        width: 97%;
     }
 
     .cards-a {
