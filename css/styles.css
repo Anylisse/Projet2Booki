@@ -467,6 +467,10 @@ footer p a {
         width: 100%;
     }
 
+    .container {
+        height: 199px;
+    }
+
     /***Partie les plus populaires***/
     .bloc-popular {
         width: 100%;
