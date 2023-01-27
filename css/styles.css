@@ -490,6 +490,10 @@ footer p a {
     }
 
     /***Partie activités***/
+    #bloc-activites h3 {
+        height: 50px;
+    }
+
     .cards-a img {
         height: 265px;
     }
