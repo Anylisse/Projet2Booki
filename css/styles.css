@@ -478,6 +478,11 @@ footer p a {
         margin-top: 40px;
     }
 
+    .cards-p {
+        width: 84%;
+        height: 144px;
+    }
+
     .part-2 {
         width: 100%;
         flex-direction: row;
