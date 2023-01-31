@@ -41,6 +41,10 @@ header nav ul a {
     padding-top: 40px;
 }
 
+header nav a {
+    border-top: 3px solid white;
+}
+
 header nav a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
