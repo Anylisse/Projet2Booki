@@ -522,7 +522,7 @@ footer p a {
 
     body {
         padding: 0;
-    }
+    } 
 
     /***Entête de la page***/
     header {
@@ -549,7 +549,7 @@ footer p a {
     }
 
     header nav ul li {
-        width: 100%;
+        width: 50%;
     }
 
     header nav ul a {
@@ -557,7 +557,7 @@ footer p a {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 40px 60px 30px 40px;
+        padding: 40px 60px 30px 60px;
     }
 
     header nav a {
