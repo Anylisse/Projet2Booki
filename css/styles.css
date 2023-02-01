@@ -501,6 +501,14 @@ footer p a {
         margin-left: 10px;
     }
 
+    .part-2 h3 {
+        font-size: 14px;
+    }
+
+    .part-2 p {
+        font-size: 13px;
+    }
+    
     /***Partie activités***/
     #bloc-activites h3 {
         height: 50px;
