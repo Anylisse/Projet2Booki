@@ -487,10 +487,18 @@ footer p a {
         height: 144px;
     }
 
+    .cards-p img {
+        width: 32%;
+    }
+
     .part-2 {
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .part-2 .text {
+        margin-left: 10px;
     }
 
     /***Partie activités***/
