@@ -552,6 +552,11 @@ footer p a {
         padding: 40px 60px 30px 40px;
     }
 
+    header nav a {
+        border-top: 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
     header nav a:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
