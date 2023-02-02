@@ -7,8 +7,8 @@ body {
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /* Entête de la page */
@@ -18,10 +18,15 @@ header {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header img {
     width: 100px;
     padding-top: 8px;
-    padding-left: 15px;
 }
 
 header nav ul {
@@ -56,11 +61,6 @@ h1 {
     font-size: 22px;
     font-weight: 700;
     padding-top: 30px;
-    padding-left: 15px;
-}
-
-.slogan p {
-    padding-left: 15px;
 }
 
 /* Partie recherche */
@@ -117,7 +117,6 @@ h1 {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0 0 15px;
-    margin-left: 15px;
 }
 
 /* Partie filtres */
@@ -169,7 +168,6 @@ h1 {
 .info {
     display: flex;
     align-items: center;
-    margin-left: 15px;
 }
 
 .fa-solid.fa-info {
@@ -203,8 +201,6 @@ h1 {
     width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 21px;
-    margin-left: 15px;
     padding: 10px 30px;
 }
 
@@ -219,7 +215,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: -20px;
+    gap: 20px;
 }
 
 .cards-h .part-1 a {
@@ -230,13 +226,16 @@ h1 {
 .cards-h article h3 {
     font-size: 16px;
     margin-left: 1px;
-    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 0;
     padding-left: 10px;
 }
 
 .cards-h article p {
     font-size: 14px;
     margin-left: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .stars-h {
@@ -244,6 +243,8 @@ h1 {
     font-size: 12px;
     padding-left: 10px;
     padding-bottom: 5px;
+    position: absolute;
+    bottom: -2px;
 }
 
 .stars-h .blue {
@@ -255,17 +256,15 @@ h1 {
 }
 
 .container {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 230px;
+    height: 199px;
     color: black;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: 4px solid white;
     border-radius: 20px;
-    line-height: 0.5;
-    margin-top: 25px;
+    position: relative;
 }
 
 .container:hover {
@@ -280,27 +279,22 @@ h1 {
     color: black;
     font-size: 16px;
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
 /* Partie les plus populaires */
 .bloc-popular {
-    width: 30%;
+    width: 31%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-left: 15px;
-    padding-bottom: 5px;
+    padding: 10px 30px;
 }
 
 .bloc-popular .title-icon {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 12px;
-    padding-left: 30px;
 }
 
 .bloc-popular .title,
@@ -310,21 +304,17 @@ h2 {
 
 .fa-solid.fa-chart-line {
     color: #0065FC;
-    padding-right: 30px;
 }
 
 .cards-p {
-    width: 87%;
-    height: 158px;
+    width: 100%;
+    height: 144px;
     display: flex;
     color: black;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: 4px solid white;
     border-radius: 20px;
-    margin: 20px;
-    margin-top: 8px;
-    margin-left: 25px;
 }
 
 .cards-p img {
@@ -346,10 +336,16 @@ a {
 .part-2 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 20px;
 }
 
 .part-2 a {
     width: 100%;
+    padding: 7px;
 }
 
 .part-2 .text {
@@ -363,11 +359,12 @@ a {
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 .part-2 p {
-    display: flex;
     font-size: 14px;
+    margin-top: 2px;
 }
 
 .stars-p {
@@ -386,18 +383,16 @@ a {
 }
 
 /* Partie activités */
-#bloc-activites {
-    margin-bottom: 30px;
-    padding-left: 20px;
-}
 
 #bloc-activites h2 {
     margin-top: 50px;
 }
 
 #bloc-activites h3 {
-    height: 40px;
-    margin-top: 10px;
+    height: 38px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 18px;
     padding-left: 15px;
 }
 
@@ -436,7 +431,7 @@ footer {
     justify-content: space-between;
     height: 180px;
     background-color: #F2F2F2;
-    margin-left: 20px;
+    margin-top: 29px;
     padding-top: 15px;
 }
 
