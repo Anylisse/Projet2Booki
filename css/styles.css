@@ -526,11 +526,6 @@ footer p a {
         margin-top: 25px;
     }
 
-    header img {
-        width: 25%;
-        margin-left: 120px;
-    }
-
     header nav {
         width: 100%;
         display: flex;
@@ -565,8 +560,9 @@ footer p a {
 
     /***Slogan***/
     .slogan {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding: 10px 30px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     /***Partie recherche***/
@@ -602,22 +598,22 @@ footer p a {
     }
 
     #filters p {
-        padding-left: 40px;
+        padding-left: 12px;
     }
 
     #filters a {
-        font-size: 10px;
+        font-size: 11px;
         padding: 0;
     }
 
     #filters ul {
         width: 100%;
         margin-top: -5px;
-        gap: 15px;
+        padding-left: 10px;
     }
 
     #filters li {
-        width: 40%;
+        width: 45%;
         height: 40px;
         padding-left: 5px;
     }
@@ -629,7 +625,7 @@ footer p a {
 
     /***Partie info***/
     .info {
-        padding-left: 20px;
+        padding-left: 11px;
     }
 
     #info {
@@ -651,9 +647,7 @@ footer p a {
     }
 
     .cards-p {
-        width: 90%;
         height: 144px;
-        margin-top: 8px;
     }
 
     /***Partie hébergements***/
@@ -666,8 +660,6 @@ footer p a {
         background-color: unset;
         margin: 0;
         margin-top: 5px;
-        padding-right: 10px;
-        padding-left: 25px;
     }
 
     .cards-h img {
@@ -692,7 +684,7 @@ footer p a {
     /***Partie activités***/
 
     #bloc-activites {
-        margin: 0;
+        padding: 10px 30px;
     }
 
     #bloc-activites h3 {
@@ -704,11 +696,10 @@ footer p a {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: -10px;
     }
 
     .part-3 a {
-        width: 97%;
+        width: 100%;
     }
 
     .cards-a {
