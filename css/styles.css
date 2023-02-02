@@ -457,10 +457,6 @@ footer p a {
 /* Tablette */
 @media screen and (max-width: 991px) {
 
-    body {
-        padding-right: 20px;
-    }
-
     /***Partie hébergements***/
     .cards-h {
         width: 100%;
@@ -478,7 +474,7 @@ footer p a {
     }
 
     .cards-p {
-        width: 84%;
+        width: 100%;
         height: 144px;
     }
 
@@ -506,17 +502,11 @@ footer p a {
     
     /***Partie activités***/
     #bloc-activites h3 {
-        height: 50px;
+        height: 40px;
     }
 
     .cards-a img {
         height: 265px;
-    }
-
-    /***Bas de la page***/
-    footer {
-        margin-top: 60px;
-        margin-left: 20px;
     }
 }
 
